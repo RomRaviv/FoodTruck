@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MyOrderActivity">
+
+    <include layout="@layout/menu_background" />
+    <TextView
+        android:id="@+id/txt_my_order_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Order"
+        android:textStyle="bold|italic"
+        android:layout_centerHorizontal="true"
+        android:textSize="63dp"
+        android:textColor="@color/black"/>
+
+
+    <FrameLayout
+        android:id="@+id/fragment_my_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/linear_my_order_actions_btns"
+        android:layout_below="@+id/txt_my_order_title"
+        android:layout_margin="30dp"
+        android:layout_weight="10" />
+
+
+    <LinearLayout
+        android:id="@+id/linear_my_order_actions_btns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp">
+        <Button
+            android:id="@+id/btn_my_order_edit"
+            android:layout_width="180dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/black"
+            android:drawableTop="@drawable/ic_clock"
+            android:paddingTop="15sp"
+            android:text="edit"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp" />
+        <Button
+            android:id="@+id/btn_my_order_cancel"
+            android:layout_width="180dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/black"
+            android:drawableTop="@drawable/ic_clock"
+            android:paddingTop="15sp"
+            android:text="Cancel order"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp" />
+
+        <ImageButton
+            android:id="@+id/btn_my_order_back"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/round_button"
+            android:src="@drawable/ic_back"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "944797073191",
+    "firebase_url": "https://foodtruck-dc5af-default-rtdb.firebaseio.com",
+    "project_id": "foodtruck-dc5af",
+    "storage_bucket": "foodtruck-dc5af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944797073191:android:b064ceecf5951338c97302",
+        "android_client_info": {
+          "package_name": "com.example.foodtruck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944797073191-gnikfn39qd6nuisrfuj2tali92hrk55o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpU8sI4K3WrjUFrvv3WtnJBOs-re1ljHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944797073191-gnikfn39qd6nuisrfuj2tali92hrk55o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

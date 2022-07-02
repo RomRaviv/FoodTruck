@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StationActivity">
+
+    <include layout="@layout/background" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/img_station_logo"
+            android:layout_width="388dp"
+            android:layout_height="152dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_title_foodtruck" />
+
+        <TextView
+            android:id="@+id/txt_choose_station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_station_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Choose station: "
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/fab_station_menu"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/txt_choose_station"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/black"
+            android:text="Menu"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            android:textStyle="bold|italic" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/fab_station_cash_register"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/fab_station_menu"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/black"
+            android:text="Cash Register"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:textSize="24dp"/>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
